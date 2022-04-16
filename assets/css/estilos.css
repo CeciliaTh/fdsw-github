@@ -5,10 +5,10 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/assets/img/fondoflores.jpg");
+  background-repeat: repeat;
   background-size: cover;
-  background-position: left;
+  /* background-position: left; */
 }
 
 /* Mis trabajos */

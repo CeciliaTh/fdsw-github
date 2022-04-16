@@ -5,38 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tipo de letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CDN Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Cecilia</title>
+    <!-- javascript con bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/cupponfv.png" type="image/x-icon">
+    <!-- Para ver los iconos en boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Cecilia</title>
+    <!-- Carga CSS -->
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-chat-right-heart"></i> <strong>CECILIA</strong> <i class="bi bi-chat-left-heart"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="#acercademi">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#mistrabajos">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
 
                 </ul>
@@ -45,11 +57,11 @@
         </div>
     </nav>
 
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+    <header id="Hero-Section" class="text-dark text-center py-5 mt-5">
         <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
+            <div class="ms-auto"> <!-- col-12 col-md-7 " -->
                 <h1 class="display-1 fw-bold my-5">
-                    Comidas del fin <br> del mundo
+                    Conociéndome
                 </h1>
                 <p class="my-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
@@ -66,9 +78,11 @@
 
 
     <section id="Acerca-de-mi" class="container text-center my-5">
+        <a name="acercademi"></a>
 
 
         <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        
 
         <p class="my-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
@@ -112,6 +126,7 @@
 
 
     <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+        <a name="mistrabajos"></a>
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
 
@@ -122,8 +137,10 @@
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
                         <p class="card-text">
-                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
-                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
+                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado
+                            Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
+                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado
+                            Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
                         </p>
                         <button type="button" class="btn btn-outline-info">
                             Ver más
@@ -172,6 +189,7 @@
 
 
     <section id="Contacto" class="container my-5">
+        <a name="contacto"></a>
 
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
