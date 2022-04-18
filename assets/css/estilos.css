@@ -1,5 +1,6 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/assets/img/fondoflores.jpg");
 }
 
 /* Hero Section */
@@ -19,7 +20,13 @@ body {
   width: 100px;
   height:100px;
 }
+#Acerca-de-mi{
+  background-color:pink;
+}
 
+.colorlista-adm{
+ background-color: aquamarine;
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
