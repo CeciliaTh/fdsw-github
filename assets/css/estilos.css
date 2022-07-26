@@ -7,10 +7,15 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/fondoflores.jpg");
+  background-image: url("../img/romane/Portada2.jpg");
   background-repeat: repeat;
   background-size: cover;
   background-position: left;
+  background-color: blueviolet;
+}
+
+.titulonav{
+  font-family:fantasy;
 }
 
 .barra{
