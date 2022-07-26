@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   /* background-image: url("../img/fondoflores.jpg"); */
   background-color: pink;
 }
@@ -15,7 +16,9 @@ body {
 }
 
 .titulonav{
-  font-family:fantasy;
+  /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+  /* font-family:fantasy; */
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .barra{
