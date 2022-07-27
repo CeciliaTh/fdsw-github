@@ -20,9 +20,14 @@ body {
   font-family: 'Shadows Into Light';
 }
 
+
 h3{
   text-align: center;
 }
+
+ h1,h2{
+  font-family: 'Shadows Into Light';
+ }
 
 
 .fotos{
@@ -30,10 +35,6 @@ h3{
   height:auto;
 }
 
-.fotosp1{
-  width: 100px;
-  height:100px;
-}
 
 /* #Acerca-de-romane, #pasatiempos{
   background-color:lightyellow;

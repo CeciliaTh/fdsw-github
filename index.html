@@ -43,13 +43,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 titulonav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de Romané</a>
+                        <a class="nav-link" href="#acercsderomane">Acerca de Romané</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vida</a>
+                        <a class="nav-link" href="#caracteristicas">Vida</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contactame</a>
+                        <a class="nav-link" href="#fotos">Fotos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -58,7 +58,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#acercaderomane">Acerca de...</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#caracteristicas">Caracteristicas</a></li>
+                            <li><a class="dropdown-item" href="#fotos">Fotos</a></li>
+                            <li><a class="dropdown-item" href="#caracteristicas">Contacto</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -115,10 +117,11 @@
 
 
        <section class="caracteristicas">
+        <a name="caracteristicas"></a>
 
           <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-3 col-xs-1 col-md-3">
+                    <div class="col-3 col-xs-1 col-md-4">
                         <h3 class="fw-bold">Comida</h3>
                         <p class="my-3 text-center">
                             <i class="fa-solid fa-fish fa-3x"></i><br>
@@ -126,7 +129,7 @@
                         </p>
                     </div>
         
-                    <div class="col-3 col-xs-1 col-md-3">
+                    <div class="col-3 col-xs-1 col-md-4">
                         <h3 class="fw-bold">Casa</h3>
                         <p class="my-3 text-center">
                             <i class="fa-solid fa-house fa-3x"></i><br>
@@ -134,7 +137,7 @@
                         </p>
                     </div>
         
-                    <div class="col-3 col-xs-1 col-md-3">
+                    <div class="col-3 col-xs-1 col-md-4">
                         
                         <h3 class="fw-bold">Familia</h3>
                         <p class="my-3 text-center">
@@ -144,70 +147,54 @@
                     </div>
                 </div>
             </div>
-        
-        <!-- <i class="fa-solid fa-card-heart fa-3x my-3"></i> -->
     </section>
 
-
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
-
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
-
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
-                        <p class="card-text">
-                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado
-                            Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
-                            Una de las delicias culinarias típicas de la zona es el Asado al Palo o el clásico Asado
-                            Patagón. Experiencia que no puede perderse en su próxima visita a Villa O'Higgins.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
+        <section class="fotos my-5">
+            <a name="fotos"></a>
+            <h2 class="text-center fs-1 my-5"> Imagenes </h2>
+            <div id="carouselExampleIndicators" class="carousel slide carrusel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                            consequatur quos error fuga excepturi quo. Laudantium optio
-                            pariatur laboriosam modi, ea molestias?
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/romane/romaneC1.jpg" class="d-block w-100 img-responsive" alt="romane1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/romane/romaneC2.jpg" class="d-block w-100 img-responsive" alt="romane2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/romane/romaneC3.jpg" class="d-block w-100 img-responsive" alt="romane3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/romane/romaneC4.jpg" class="d-block w-100 img-responsive" alt="romane4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/romane/romaneC5.jpg" class="d-block w-100 img-responsive" alt="romane5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/romane/romaneC6.jpg" class="d-block w-100 img-responsive" alt="romane6">
+                  </div>
                 </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Salmones de Alaska</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                            corporis facilis qui architecto dolor, accusamus eveniet
-                            exercitationem fugit. Quod autem neque ducimus.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <a href="#top" class="link-int"><button type="button" class="btn btn-info"><i class="bi bi-box-arrow-in-up"></i>
+                Subir</button></a>
+            </section>
 
-    </section>
 
 
 
@@ -249,49 +236,7 @@
         </form>
 
     </section>
-    <section>
-        <a name="fotos"></a>
-        <div id="carouselExampleIndicators" class="carousel slide carrusel" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/Amtrak.png" class="d-block w-100 img-responsive" alt="Amtrak P42CD">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/bpfoto400x400.jpg" class="d-block w-100 img-responsive" alt="blackpink1">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/duolingo2.jpg" class="d-block w-100 img-responsive" alt="duolingo">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/amtrak.sc44-500.jpg" class="d-block w-100 img-responsive" alt="Amtrak SC-44">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/blackpink2.jpg" class="d-block w-100 img-responsive" alt="blackpink2">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/bnsf2.jpg" class="d-block w-100 img-responsive" alt="bnsf">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <a href="#top" class="link-int"><button type="button" class="btn btn-info"><i class="bi bi-box-arrow-in-up"></i>
-            Subir</button></a>
-        </section>
+    
 
 
     <footer class="bg-dark text-center text-light p-4">
